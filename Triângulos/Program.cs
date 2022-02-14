@@ -61,7 +61,7 @@ namespace Triângulos
                 do
                 {
                     Console.Write("Deseja verificar a classificação de algum triângulo(s/n)?");
-                    teste = Convert.ToChar(Console.ReadLine());
+                    teste = Convert.ToChar(Console.ReadLine().ToLower());
                     if(teste != 's' && teste != 'n')
                     {
                         Console.WriteLine("digite apenas s (para continuar) ou n (para sair)");
